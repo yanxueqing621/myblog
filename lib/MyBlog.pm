@@ -1,4 +1,6 @@
 package MyBlog;
+use Modern::Perl;
+use Data::Dumper;
 use Mojo::Base 'Mojolicious';
 
 # This method will run once at server start
@@ -15,6 +17,10 @@ sub startup {
   $r->get('/signin')->to('Home#signin')->name('signin');
   $r->get('/logout')->to('Home#logout')->name('logout');
   $r->get('/index')->to('Home#index')->name('index');
+  say Dumper $self->static->paths;
+  say Dumper $self->static->classes;
+  say Dumper $self->renderer->paths;
+  say Dumper $self->renderer->classes;
 }
 
 1;

@@ -1,0 +1,284 @@
+[Fri Jun 19 13:33:57 2015] [debug] GET "/"
+[Fri Jun 19 13:33:57 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Jun 19 13:33:57 2015] [debug] Template "not_found.html.ep" not found
+[Fri Jun 19 13:33:57 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Jun 19 13:33:57 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Jun 19 13:33:57 2015] [debug] 404 Not Found (0.017440s, 57.339/s)
+[Fri Jun 19 13:34:04 2015] [debug] GET "/singin"
+[Fri Jun 19 13:34:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Jun 19 13:34:04 2015] [debug] Template "not_found.html.ep" not found
+[Fri Jun 19 13:34:04 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Jun 19 13:34:04 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Jun 19 13:34:04 2015] [debug] 404 Not Found (0.004414s, 226.552/s)
+[Fri Jun 19 13:34:12 2015] [debug] GET "/signin"
+[Fri Jun 19 13:34:12 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 13:34:12 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 13:34:12 2015] [debug] 200 OK (0.036339s, 27.519/s)
+[Fri Jun 19 13:34:12 2015] [debug] GET "/semanticui/semantic.js"
+[Fri Jun 19 13:34:12 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Jun 19 13:34:12 2015] [debug] Template "not_found.html.ep" not found
+[Fri Jun 19 13:34:12 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Jun 19 13:34:12 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Jun 19 13:34:12 2015] [debug] 404 Not Found (0.004899s, 204.123/s)
+[Fri Jun 19 13:34:58 2015] [debug] GET "/signin"
+[Fri Jun 19 13:34:58 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 13:34:58 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 13:34:58 2015] [debug] 200 OK (0.000523s, 1912.046/s)
+[Fri Jun 19 13:34:58 2015] [debug] GET "/semanticui/semantic.js"
+[Fri Jun 19 13:34:58 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Jun 19 13:34:58 2015] [debug] Template "not_found.html.ep" not found
+[Fri Jun 19 13:34:58 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Jun 19 13:34:58 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Jun 19 13:34:58 2015] [debug] 404 Not Found (0.004601s, 217.344/s)
+[Fri Jun 19 13:36:02 2015] [debug] GET "/signin"
+[Fri Jun 19 13:36:02 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 13:36:02 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 13:36:02 2015] [debug] 200 OK (0.002400s, 416.667/s)
+[Fri Jun 19 13:36:04 2015] [debug] GET "/signin"
+[Fri Jun 19 13:36:04 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 13:36:04 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 13:36:04 2015] [debug] 200 OK (0.001458s, 685.871/s)
+[Fri Jun 19 13:36:13 2015] [debug] GET "/signin"
+[Fri Jun 19 13:36:13 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 13:36:13 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 13:36:13 2015] [debug] 200 OK (0.000658s, 1519.757/s)
+[Fri Jun 19 14:08:32 2015] [debug] GET "/signin"
+[Fri Jun 19 14:08:33 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 14:08:33 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 14:08:33 2015] [debug] 200 OK (0.008833s, 113.212/s)
+[Fri Jun 19 14:11:00 2015] [debug] GET "/signin"
+[Fri Jun 19 14:11:00 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 14:11:00 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 14:11:00 2015] [debug] 200 OK (0.004176s, 239.464/s)
+[Fri Jun 19 14:12:31 2015] [debug] GET "/signin"
+[Fri Jun 19 14:12:31 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 14:12:31 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 14:12:31 2015] [debug] 200 OK (0.001056s, 946.970/s)
+[Fri Jun 19 14:12:35 2015] [debug] GET "/signin"
+[Fri Jun 19 14:12:35 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 14:12:35 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 14:12:35 2015] [debug] 200 OK (0.000577s, 1733.102/s)
+[Fri Jun 19 14:12:40 2015] [debug] GET "/signin"
+[Fri Jun 19 14:12:40 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 14:12:40 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 14:12:40 2015] [debug] 200 OK (0.000638s, 1567.398/s)
+[Fri Jun 19 14:13:11 2015] [debug] GET "/signin"
+[Fri Jun 19 14:13:11 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 14:13:11 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 14:13:11 2015] [debug] 200 OK (0.002811s, 355.745/s)
+[Fri Jun 19 14:24:43 2015] [debug] GET "/signin"
+[Fri Jun 19 14:24:43 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 14:24:43 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 14:24:43 2015] [debug] 200 OK (0.002782s, 359.454/s)
+[Fri Jun 19 16:33:16 2015] [debug] GET "/signin"
+[Fri Jun 19 16:33:16 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 16:33:16 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 16:33:16 2015] [debug] 200 OK (0.020420s, 48.972/s)
+[Fri Jun 19 16:34:58 2015] [debug] GET "/signin"
+[Fri Jun 19 16:34:58 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 16:34:58 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 16:34:58 2015] [debug] 200 OK (0.004550s, 219.780/s)
+[Fri Jun 19 16:34:59 2015] [debug] GET "/signin"
+[Fri Jun 19 16:34:59 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 16:34:59 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 16:34:59 2015] [debug] 200 OK (0.000930s, 1075.269/s)
+[Fri Jun 19 16:36:36 2015] [debug] GET "/signin"
+[Fri Jun 19 16:36:36 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 16:36:36 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 16:36:36 2015] [debug] 200 OK (0.005085s, 196.657/s)
+[Fri Jun 19 16:37:10 2015] [debug] GET "/signin"
+[Fri Jun 19 16:37:10 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 16:37:10 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 16:37:10 2015] [debug] 200 OK (0.002420s, 413.223/s)
+[Fri Jun 19 16:38:58 2015] [debug] GET "/signin"
+[Fri Jun 19 16:38:58 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 16:38:58 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 16:38:58 2015] [debug] 200 OK (0.003218s, 310.752/s)
+[Fri Jun 19 16:39:25 2015] [debug] GET "/signin"
+[Fri Jun 19 16:39:25 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 16:39:25 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 16:39:25 2015] [debug] 200 OK (0.002648s, 377.644/s)
+[Fri Jun 19 16:39:38 2015] [debug] GET "/signin"
+[Fri Jun 19 16:39:38 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 16:39:38 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 16:39:38 2015] [debug] 200 OK (0.002443s, 409.333/s)
+[Fri Jun 19 16:42:04 2015] [debug] GET "/signin"
+[Fri Jun 19 16:42:04 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 16:42:04 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 16:42:04 2015] [debug] 200 OK (0.002846s, 351.370/s)
+[Fri Jun 19 16:42:22 2015] [debug] GET "/signin"
+[Fri Jun 19 16:42:22 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 16:42:22 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 16:42:22 2015] [debug] 200 OK (0.002441s, 409.668/s)
+[Fri Jun 19 16:43:14 2015] [debug] GET "/signin"
+[Fri Jun 19 16:43:14 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 16:43:14 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 16:43:14 2015] [debug] 200 OK (0.124574s, 8.027/s)
+[Fri Jun 19 16:43:34 2015] [debug] GET "/signin"
+[Fri Jun 19 16:43:34 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 16:43:34 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 16:43:34 2015] [debug] 200 OK (0.014461s, 69.152/s)
+[Fri Jun 19 16:43:54 2015] [debug] GET "/signin"
+[Fri Jun 19 16:43:54 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 16:43:54 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 16:43:54 2015] [debug] 200 OK (0.011872s, 84.232/s)
+[Fri Jun 19 16:43:56 2015] [debug] GET "/signin"
+[Fri Jun 19 16:43:56 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 16:43:56 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 16:43:56 2015] [debug] 200 OK (0.000497s, 2012.072/s)
+[Fri Jun 19 16:43:57 2015] [debug] GET "/signin"
+[Fri Jun 19 16:43:57 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 16:43:57 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 16:43:57 2015] [debug] 200 OK (0.001026s, 974.659/s)
+[Fri Jun 19 17:02:59 2015] [debug] GET "/signin"
+[Fri Jun 19 17:02:59 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:02:59 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:02:59 2015] [debug] 200 OK (0.065437s, 15.282/s)
+[Fri Jun 19 17:03:02 2015] [debug] GET "/signin"
+[Fri Jun 19 17:03:02 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:03:02 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 17:03:02 2015] [debug] 200 OK (0.001317s, 759.301/s)
+[Fri Jun 19 17:03:16 2015] [debug] GET "/signin"
+[Fri Jun 19 17:03:16 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:03:16 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:03:16 2015] [debug] 200 OK (0.015020s, 66.578/s)
+[Fri Jun 19 17:04:34 2015] [debug] GET "/signin"
+[Fri Jun 19 17:04:34 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:04:34 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 17:04:34 2015] [debug] 200 OK (0.000479s, 2087.683/s)
+[Fri Jun 19 17:04:44 2015] [debug] GET "/signin"
+[Fri Jun 19 17:04:44 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:04:44 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:04:44 2015] [debug] 200 OK (0.018681s, 53.530/s)
+[Fri Jun 19 17:15:16 2015] [debug] GET "/signin"
+[Fri Jun 19 17:15:16 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:15:16 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:15:16 2015] [debug] 200 OK (0.013604s, 73.508/s)
+[Fri Jun 19 17:15:36 2015] [debug] GET "/signin"
+[Fri Jun 19 17:15:36 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:15:36 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 17:15:36 2015] [debug] 200 OK (0.000634s, 1577.287/s)
+[Fri Jun 19 17:15:59 2015] [debug] GET "/signin"
+[Fri Jun 19 17:15:59 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:15:59 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:15:59 2015] [debug] 200 OK (0.014045s, 71.200/s)
+[Fri Jun 19 17:16:18 2015] [debug] GET "/signin"
+[Fri Jun 19 17:16:18 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:16:18 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:16:18 2015] [debug] 200 OK (0.012959s, 77.166/s)
+[Fri Jun 19 17:16:23 2015] [debug] GET "/signin"
+[Fri Jun 19 17:16:23 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:16:23 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 17:16:23 2015] [debug] 200 OK (0.001380s, 724.638/s)
+[Fri Jun 19 17:16:34 2015] [debug] GET "/signin"
+[Fri Jun 19 17:16:34 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:16:34 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 17:16:34 2015] [debug] 200 OK (0.000647s, 1545.595/s)
+[Fri Jun 19 17:16:50 2015] [debug] GET "/signin"
+[Fri Jun 19 17:16:50 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:16:50 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 17:16:50 2015] [debug] 200 OK (0.000815s, 1226.994/s)
+[Fri Jun 19 17:17:28 2015] [debug] GET "/signin"
+[Fri Jun 19 17:17:28 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:17:28 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:17:28 2015] [debug] 200 OK (0.025328s, 39.482/s)
+[Fri Jun 19 17:17:29 2015] [debug] GET "/signin"
+[Fri Jun 19 17:17:29 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:17:29 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 17:17:29 2015] [debug] 200 OK (0.000505s, 1980.198/s)
+[Fri Jun 19 17:17:38 2015] [debug] GET "/signin"
+[Fri Jun 19 17:17:38 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:17:38 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 17:17:38 2015] [debug] 200 OK (0.000912s, 1096.491/s)
+[Fri Jun 19 17:17:46 2015] [debug] GET "/signin"
+[Fri Jun 19 17:17:46 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:17:46 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 17:17:46 2015] [debug] 200 OK (0.000701s, 1426.534/s)
+[Fri Jun 19 17:17:57 2015] [debug] GET "/signin"
+[Fri Jun 19 17:17:57 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:17:57 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 17:17:57 2015] [debug] 200 OK (0.000477s, 2096.436/s)
+[Fri Jun 19 17:19:09 2015] [debug] GET "/signin"
+[Fri Jun 19 17:19:09 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:19:09 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:19:09 2015] [debug] 200 OK (0.014799s, 67.572/s)
+[Fri Jun 19 17:21:01 2015] [debug] GET "/signin"
+[Fri Jun 19 17:21:01 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:21:01 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:21:01 2015] [debug] 200 OK (0.013483s, 74.167/s)
+[Fri Jun 19 17:24:48 2015] [debug] GET "/signin"
+[Fri Jun 19 17:24:48 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:24:48 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:24:48 2015] [debug] 200 OK (0.013411s, 74.566/s)
+[Fri Jun 19 17:27:24 2015] [debug] GET "/signin"
+[Fri Jun 19 17:27:24 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:27:24 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:27:24 2015] [debug] 200 OK (0.015854s, 63.076/s)
+[Fri Jun 19 17:27:54 2015] [debug] GET "/signin"
+[Fri Jun 19 17:27:54 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:27:54 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:27:54 2015] [debug] 200 OK (0.015720s, 63.613/s)
+[Fri Jun 19 17:28:14 2015] [debug] GET "/signin"
+[Fri Jun 19 17:28:14 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:28:14 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:28:14 2015] [debug] 200 OK (0.012741s, 78.487/s)
+[Fri Jun 19 17:28:15 2015] [debug] GET "/signin"
+[Fri Jun 19 17:28:15 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:28:15 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 17:28:15 2015] [debug] 200 OK (0.000540s, 1851.852/s)
+[Fri Jun 19 17:28:16 2015] [debug] GET "/signin"
+[Fri Jun 19 17:28:16 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:28:16 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 17:28:16 2015] [debug] 200 OK (0.000844s, 1184.834/s)
+[Fri Jun 19 17:28:18 2015] [debug] GET "/signin"
+[Fri Jun 19 17:28:18 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:28:18 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 17:28:18 2015] [debug] 200 OK (0.000499s, 2004.008/s)
+[Fri Jun 19 17:30:28 2015] [debug] GET "/signin"
+[Fri Jun 19 17:30:28 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:30:28 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:30:28 2015] [debug] 200 OK (0.014984s, 66.738/s)
+[Fri Jun 19 17:30:29 2015] [debug] GET "/signin"
+[Fri Jun 19 17:30:29 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:30:29 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 17:30:29 2015] [debug] 200 OK (0.000482s, 2074.689/s)
+[Fri Jun 19 17:32:15 2015] [debug] GET "/signin"
+[Fri Jun 19 17:32:15 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:32:15 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:32:15 2015] [debug] 200 OK (0.026916s, 37.153/s)
+[Fri Jun 19 17:32:17 2015] [debug] GET "/signin"
+[Fri Jun 19 17:32:17 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:32:17 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 17:32:17 2015] [debug] 200 OK (0.000533s, 1876.173/s)
+[Fri Jun 19 17:32:18 2015] [debug] GET "/signin"
+[Fri Jun 19 17:32:18 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:32:18 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 17:32:18 2015] [debug] 200 OK (0.000520s, 1923.077/s)
+[Fri Jun 19 17:33:12 2015] [debug] GET "/signin"
+[Fri Jun 19 17:33:12 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:33:12 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:33:12 2015] [debug] 200 OK (0.015990s, 62.539/s)
+[Fri Jun 19 17:33:16 2015] [debug] GET "/signin"
+[Fri Jun 19 17:33:16 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:33:16 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 17:33:16 2015] [debug] 200 OK (0.000516s, 1937.984/s)
+[Fri Jun 19 17:35:23 2015] [debug] GET "/signin"
+[Fri Jun 19 17:35:23 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:35:23 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:35:23 2015] [debug] 200 OK (0.034854s, 28.691/s)
+[Fri Jun 19 17:35:25 2015] [debug] GET "/signin"
+[Fri Jun 19 17:35:25 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:35:25 2015] [debug] Rendering cached template "home/signin.html.ep"
+[Fri Jun 19 17:35:25 2015] [debug] 200 OK (0.000575s, 1739.130/s)
+[Fri Jun 19 17:35:42 2015] [debug] GET "/signin"
+[Fri Jun 19 17:35:42 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:35:42 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:35:42 2015] [debug] 200 OK (0.022428s, 44.587/s)
+[Fri Jun 19 17:43:22 2015] [debug] GET "/signin"
+[Fri Jun 19 17:43:22 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:43:22 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:43:22 2015] [debug] 200 OK (0.015524s, 64.416/s)
+[Fri Jun 19 17:43:48 2015] [debug] GET "/signin"
+[Fri Jun 19 17:43:48 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
+[Fri Jun 19 17:43:48 2015] [debug] Rendering template "home/signin.html.ep"
+[Fri Jun 19 17:43:48 2015] [debug] 200 OK (0.013299s, 75.194/s)

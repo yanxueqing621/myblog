@@ -1,12 +1,21 @@
-package MyBlog::Controller::Example;
+package MyBlog::Controller::Home;
 use Mojo::Base 'Mojolicious::Controller';
 
 # This action will render a template
-sub welcome {
+sub signin{
   my $self = shift;
 
   # Render template "example/welcome.html.ep" with message
-  $self->render(msg => 'Welcome to the Mojolicious real-time web framework!');
+  $self->render;
+}
+
+sub logout {
+
+}
+
+sub index {
+
 }
 
 1;
+
