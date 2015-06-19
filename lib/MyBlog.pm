@@ -5,14 +5,16 @@ use Mojo::Base 'Mojolicious';
 sub startup {
   my $self = shift;
 
-  # Documentation browser under "/perldoc"
-  $self->plugin('PODRenderer');
+  # passphrase is used by HMAC-SHA1 algorithm to make signed cookies secure
+  $self->secrets(['Yan Xueqing blog']);
 
   # Router
   my $r = $self->routes;
 
   # Normal route to controller
-  $r->get('/')->to('example#welcome');
+  $r->get('/signin')->to('Home#signin')->name('signin');
+  $r->get('/logout')->to('Home#logout')->name('logout');
+  $r->get('/index')->to('Home#index')->name('index');
 }
 
 1;
