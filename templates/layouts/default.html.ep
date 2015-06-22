@@ -1,5 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head><title><%= title %></title></head>
-  <body><%= content %></body>
+	<head>
+		<title><%= title %></title>
+		<link rel='stylesheet' type='text/css' href='Semantic-UI-1.11.4/dist/semantic.css'>
+		<script src='Semantic-UI-1.11.4/dist/semantic.js'></script>
+  	</head>
+  	<body>
+		<div id='grid'>
+			<div id='heading'>
+				<div>
+					<h1><a title="闫学青" href="#">闫学青的博客</a></h1>
+					<h3></h3>
+				</div>
+				<div class="ui text menu">
+					<a class="active item">
+						<i class="home icon"></i> 首页
+					</a>
+					<a class="item"> 博文目录 </a>
+					<a class="item"> 图片</a>
+					<a class="item">
+						<i class="user icon"></i> 关于我
+					</a>
+				</div>
+			</div>
+
+			<div id='content_body'>内容主体</div>
+
+			<div id='content_menu' class='segment'>
+				<div class='two fields'>
+					<div class='field'>个人资料</div>
+					<div class="field">管理</div>
+				</div>
+				<div class="ui card">
+				  	<div class="image">
+						<img src="/images/avatar/large/stevie.jpg">
+				  	</div>
+				  	<div class="content">
+						<div class="header aligned center">闫学青</div>
+				  	</div>
+				  	<div class="extra content">
+						<div class="ui list">
+  							<div class="item">年龄:19</div>
+  							<div class="item">博客访问:3399</div>
+  							<div class="item">关注人气:33</div>
+						</div>
+				  	</div>
+				</div>
+				
+			</div>
+			<div id='footing'>底部</div>
+		</div>
+  </body>
 </html>

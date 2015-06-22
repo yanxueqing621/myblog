@@ -282,3 +282,1487 @@
 [Fri Jun 19 17:43:48 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "signin"
 [Fri Jun 19 17:43:48 2015] [debug] Rendering template "home/signin.html.ep"
 [Fri Jun 19 17:43:48 2015] [debug] 200 OK (0.013299s, 75.194/s)
+[Sun Jun 21 10:35:45 2015] [info] Listening at "http://*:3000"
+[Sun Jun 21 10:35:50 2015] [debug] GET "/"
+[Sun Jun 21 10:35:50 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 10:35:50 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 10:35:50 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 10:35:50 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 10:35:50 2015] [debug] 404 Not Found (0.029882s, 33.465/s)
+[Sun Jun 21 10:35:58 2015] [debug] GET "/index"
+[Sun Jun 21 10:35:58 2015] [debug] Routing to controller "MyBlog::Controller::Home" and action "index"
+[Sun Jun 21 10:35:58 2015] [debug] Template "home/index.html.ep" not found
+[Sun Jun 21 10:35:58 2015] [debug] Nothing has been rendered, expecting delayed response
+[Sun Jun 21 20:46:57 2015] [info] Listening at "http://*:3000"
+[Sun Jun 21 20:50:53 2015] [debug] GET "/default"
+[Sun Jun 21 20:50:53 2015] [debug] Template "layout/default.html.ep" not found
+[Sun Jun 21 20:50:53 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 20:50:53 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 20:50:53 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 20:50:53 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 20:50:53 2015] [debug] 404 Not Found (0.027852s, 35.904/s)
+[Sun Jun 21 20:51:39 2015] [debug] GET "/default"
+[Sun Jun 21 20:51:39 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 20:51:39 2015] [debug] 200 OK (0.118716s, 8.423/s)
+[Sun Jun 21 20:52:36 2015] [debug] GET "/default"
+[Sun Jun 21 20:52:36 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 20:52:37 2015] [debug] 200 OK (0.018534s, 53.955/s)
+[Sun Jun 21 20:56:07 2015] [debug] GET "/default"
+[Sun Jun 21 20:56:07 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 20:56:07 2015] [debug] 200 OK (0.018290s, 54.675/s)
+[Sun Jun 21 20:56:20 2015] [debug] GET "/default"
+[Sun Jun 21 20:56:20 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 20:56:20 2015] [debug] 200 OK (0.000639s, 1564.945/s)
+[Sun Jun 21 20:56:25 2015] [debug] GET "/default"
+[Sun Jun 21 20:56:25 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 20:56:25 2015] [debug] 200 OK (0.000504s, 1984.127/s)
+[Sun Jun 21 20:57:17 2015] [debug] GET "/default"
+[Sun Jun 21 20:57:17 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 20:57:17 2015] [debug] 200 OK (0.019099s, 52.359/s)
+[Sun Jun 21 20:57:18 2015] [debug] GET "/default"
+[Sun Jun 21 20:57:18 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 20:57:18 2015] [debug] 200 OK (0.000643s, 1555.210/s)
+[Sun Jun 21 20:57:36 2015] [debug] GET "/default"
+[Sun Jun 21 20:57:36 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 20:57:36 2015] [debug] 200 OK (0.020986s, 47.651/s)
+[Sun Jun 21 20:57:39 2015] [debug] GET "/default"
+[Sun Jun 21 20:57:39 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 20:57:39 2015] [debug] 200 OK (0.000661s, 1512.859/s)
+[Sun Jun 21 20:58:09 2015] [debug] GET "/default"
+[Sun Jun 21 20:58:09 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 20:58:09 2015] [debug] 200 OK (0.000654s, 1529.052/s)
+[Sun Jun 21 20:58:10 2015] [debug] GET "/default"
+[Sun Jun 21 20:58:10 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 20:58:10 2015] [debug] 200 OK (0.000645s, 1550.388/s)
+[Sun Jun 21 20:58:11 2015] [debug] GET "/default"
+[Sun Jun 21 20:58:11 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 20:58:11 2015] [debug] 200 OK (0.000657s, 1522.070/s)
+[Sun Jun 21 20:58:32 2015] [debug] GET "/default"
+[Sun Jun 21 20:58:32 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 20:58:32 2015] [debug] 200 OK (0.000708s, 1412.429/s)
+[Sun Jun 21 20:58:32 2015] [debug] GET "/default"
+[Sun Jun 21 20:58:32 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 20:58:32 2015] [debug] 200 OK (0.000607s, 1647.446/s)
+[Sun Jun 21 20:58:33 2015] [debug] GET "/default"
+[Sun Jun 21 20:58:33 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 20:58:33 2015] [debug] 200 OK (0.000519s, 1926.782/s)
+[Sun Jun 21 20:58:34 2015] [debug] GET "/default"
+[Sun Jun 21 20:58:34 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 20:58:34 2015] [debug] 200 OK (0.000704s, 1420.455/s)
+[Sun Jun 21 20:59:40 2015] [debug] GET "/default"
+[Sun Jun 21 20:59:40 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 20:59:40 2015] [debug] 200 OK (0.021693s, 46.098/s)
+[Sun Jun 21 20:59:41 2015] [debug] GET "/default"
+[Sun Jun 21 20:59:41 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 20:59:41 2015] [debug] 200 OK (0.000456s, 2192.982/s)
+[Sun Jun 21 20:59:53 2015] [debug] GET "/default"
+[Sun Jun 21 20:59:53 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 20:59:53 2015] [debug] 200 OK (0.021775s, 45.924/s)
+[Sun Jun 21 20:59:54 2015] [debug] GET "/default"
+[Sun Jun 21 20:59:54 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 20:59:54 2015] [debug] 200 OK (0.000571s, 1751.313/s)
+[Sun Jun 21 21:03:27 2015] [debug] GET "/default"
+[Sun Jun 21 21:03:27 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 21:03:27 2015] [debug] 200 OK (0.020247s, 49.390/s)
+[Sun Jun 21 21:03:28 2015] [debug] GET "/default"
+[Sun Jun 21 21:03:28 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 21:03:28 2015] [debug] 200 OK (0.000542s, 1845.018/s)
+[Sun Jun 21 21:03:34 2015] [debug] GET "/default"
+[Sun Jun 21 21:03:34 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 21:03:34 2015] [debug] 200 OK (0.000547s, 1828.154/s)
+[Sun Jun 21 21:05:15 2015] [debug] GET "/default"
+[Sun Jun 21 21:05:15 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 21:05:15 2015] [debug] 200 OK (0.019322s, 51.754/s)
+[Sun Jun 21 21:19:24 2015] [debug] GET "/default"
+[Sun Jun 21 21:19:24 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 21:19:24 2015] [debug] 200 OK (0.020750s, 48.193/s)
+[Sun Jun 21 21:20:37 2015] [debug] GET "/default"
+[Sun Jun 21 21:20:37 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 21:20:37 2015] [debug] 200 OK (0.020169s, 49.581/s)
+[Sun Jun 21 21:21:38 2015] [debug] GET "/default"
+[Sun Jun 21 21:21:38 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 21:21:38 2015] [debug] 200 OK (0.023293s, 42.931/s)
+[Sun Jun 21 21:22:31 2015] [debug] GET "/default"
+[Sun Jun 21 21:22:31 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 21:22:31 2015] [debug] 200 OK (0.022597s, 44.254/s)
+[Sun Jun 21 21:22:55 2015] [debug] GET "/default"
+[Sun Jun 21 21:22:55 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 21:22:55 2015] [debug] 200 OK (0.018749s, 53.336/s)
+[Sun Jun 21 21:24:35 2015] [debug] GET "/default"
+[Sun Jun 21 21:24:35 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 21:24:35 2015] [debug] 200 OK (0.022011s, 45.432/s)
+[Sun Jun 21 21:24:35 2015] [debug] GET "/default"
+[Sun Jun 21 21:24:35 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 21:24:35 2015] [debug] 200 OK (0.000472s, 2118.644/s)
+[Sun Jun 21 21:25:08 2015] [debug] GET "/default"
+[Sun Jun 21 21:25:08 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 21:25:08 2015] [debug] 200 OK (0.020416s, 48.981/s)
+[Sun Jun 21 22:26:05 2015] [debug] GET "/default"
+[Sun Jun 21 22:26:05 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 22:26:05 2015] [debug] 200 OK (0.021947s, 45.564/s)
+[Sun Jun 21 22:26:30 2015] [debug] GET "/default"
+[Sun Jun 21 22:26:30 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 22:26:30 2015] [debug] 200 OK (0.000566s, 1766.784/s)
+[Sun Jun 21 22:30:58 2015] [debug] GET "/default"
+[Sun Jun 21 22:30:58 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 22:30:58 2015] [debug] 200 OK (0.018848s, 53.056/s)
+[Sun Jun 21 22:55:20 2015] [debug] GET "/default"
+[Sun Jun 21 22:55:20 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 22:55:20 2015] [debug] 200 OK (0.019277s, 51.875/s)
+[Sun Jun 21 22:57:43 2015] [debug] GET "/default"
+[Sun Jun 21 22:57:43 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 22:57:43 2015] [debug] 200 OK (0.018506s, 54.037/s)
+[Sun Jun 21 22:58:28 2015] [debug] GET "/default"
+[Sun Jun 21 22:58:28 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 22:58:28 2015] [debug] 200 OK (0.020492s, 48.800/s)
+[Sun Jun 21 22:58:29 2015] [debug] GET "/default"
+[Sun Jun 21 22:58:29 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 22:58:29 2015] [debug] 200 OK (0.000624s, 1602.564/s)
+[Sun Jun 21 22:58:29 2015] [debug] GET "/default"
+[Sun Jun 21 22:58:29 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 22:58:29 2015] [debug] 200 OK (0.000578s, 1730.104/s)
+[Sun Jun 21 22:58:29 2015] [debug] GET "/default"
+[Sun Jun 21 22:58:29 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 22:58:29 2015] [debug] 200 OK (0.000549s, 1821.494/s)
+[Sun Jun 21 22:59:51 2015] [debug] GET "/default"
+[Sun Jun 21 22:59:51 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 22:59:51 2015] [debug] 200 OK (0.022866s, 43.733/s)
+[Sun Jun 21 23:00:16 2015] [debug] GET "/default"
+[Sun Jun 21 23:00:16 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:00:16 2015] [debug] 200 OK (0.000885s, 1129.944/s)
+[Sun Jun 21 23:00:19 2015] [debug] GET "/default"
+[Sun Jun 21 23:00:19 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:00:19 2015] [debug] 200 OK (0.019792s, 50.525/s)
+[Sun Jun 21 23:01:45 2015] [debug] GET "/default"
+[Sun Jun 21 23:01:45 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:01:45 2015] [debug] 200 OK (0.018772s, 53.271/s)
+[Sun Jun 21 23:02:47 2015] [debug] GET "/default"
+[Sun Jun 21 23:02:47 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:02:47 2015] [debug] 200 OK (0.001566s, 638.570/s)
+[Sun Jun 21 23:02:49 2015] [debug] GET "/default"
+[Sun Jun 21 23:02:49 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:02:49 2015] [debug] 200 OK (0.000595s, 1680.672/s)
+[Sun Jun 21 23:02:55 2015] [debug] GET "/default"
+[Sun Jun 21 23:02:55 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:02:55 2015] [debug] 200 OK (0.018071s, 55.337/s)
+[Sun Jun 21 23:03:06 2015] [debug] GET "/default"
+[Sun Jun 21 23:03:06 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:03:06 2015] [debug] 200 OK (0.019780s, 50.556/s)
+[Sun Jun 21 23:03:09 2015] [debug] GET "/default"
+[Sun Jun 21 23:03:09 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:03:09 2015] [debug] 200 OK (0.000480s, 2083.333/s)
+[Sun Jun 21 23:03:36 2015] [debug] GET "/default"
+[Sun Jun 21 23:03:36 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:03:36 2015] [debug] 200 OK (0.020176s, 49.564/s)
+[Sun Jun 21 23:03:37 2015] [debug] GET "/default"
+[Sun Jun 21 23:03:37 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:03:37 2015] [debug] 200 OK (0.000490s, 2040.816/s)
+[Sun Jun 21 23:03:45 2015] [debug] GET "/default"
+[Sun Jun 21 23:03:45 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:03:45 2015] [debug] 200 OK (0.024399s, 40.985/s)
+[Sun Jun 21 23:03:46 2015] [debug] GET "/default"
+[Sun Jun 21 23:03:46 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:03:46 2015] [debug] 200 OK (0.000906s, 1103.753/s)
+[Sun Jun 21 23:03:47 2015] [debug] GET "/default"
+[Sun Jun 21 23:03:47 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:03:47 2015] [debug] 200 OK (0.000797s, 1254.705/s)
+[Sun Jun 21 23:03:47 2015] [debug] GET "/default"
+[Sun Jun 21 23:03:47 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:03:47 2015] [debug] 200 OK (0.000561s, 1782.531/s)
+[Sun Jun 21 23:05:35 2015] [debug] GET "/default"
+[Sun Jun 21 23:05:35 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:05:35 2015] [debug] 200 OK (0.021411s, 46.705/s)
+[Sun Jun 21 23:05:35 2015] [debug] GET "/default"
+[Sun Jun 21 23:05:35 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:05:35 2015] [debug] 200 OK (0.000622s, 1607.717/s)
+[Sun Jun 21 23:06:00 2015] [debug] GET "/default"
+[Sun Jun 21 23:06:00 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:06:00 2015] [debug] 200 OK (0.000471s, 2123.142/s)
+[Sun Jun 21 23:06:01 2015] [debug] GET "/default"
+[Sun Jun 21 23:06:01 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:06:01 2015] [debug] 200 OK (0.000529s, 1890.359/s)
+[Sun Jun 21 23:06:02 2015] [debug] GET "/default"
+[Sun Jun 21 23:06:02 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:06:02 2015] [debug] 200 OK (0.000576s, 1736.111/s)
+[Sun Jun 21 23:06:02 2015] [debug] GET "/default"
+[Sun Jun 21 23:06:02 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:06:02 2015] [debug] 200 OK (0.000570s, 1754.386/s)
+[Sun Jun 21 23:06:04 2015] [debug] GET "/default"
+[Sun Jun 21 23:06:04 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:06:04 2015] [debug] 200 OK (0.000580s, 1724.138/s)
+[Sun Jun 21 23:06:04 2015] [debug] GET "/default"
+[Sun Jun 21 23:06:04 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:06:04 2015] [debug] 200 OK (0.000806s, 1240.695/s)
+[Sun Jun 21 23:06:05 2015] [debug] GET "/default"
+[Sun Jun 21 23:06:05 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:06:05 2015] [debug] 200 OK (0.000590s, 1694.915/s)
+[Sun Jun 21 23:06:05 2015] [debug] GET "/default"
+[Sun Jun 21 23:06:05 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:06:05 2015] [debug] 200 OK (0.000816s, 1225.490/s)
+[Sun Jun 21 23:06:06 2015] [debug] GET "/default"
+[Sun Jun 21 23:06:06 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:06:06 2015] [debug] 200 OK (0.001397s, 715.820/s)
+[Sun Jun 21 23:09:24 2015] [debug] GET "/default"
+[Sun Jun 21 23:09:24 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:09:24 2015] [debug] 200 OK (0.020189s, 49.532/s)
+[Sun Jun 21 23:09:54 2015] [debug] GET "/default"
+[Sun Jun 21 23:09:54 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:09:54 2015] [debug] 200 OK (0.018678s, 53.539/s)
+[Sun Jun 21 23:10:39 2015] [debug] GET "/default"
+[Sun Jun 21 23:10:39 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:10:39 2015] [debug] 200 OK (0.018573s, 53.842/s)
+[Sun Jun 21 23:11:21 2015] [debug] GET "/default"
+[Sun Jun 21 23:11:21 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:11:21 2015] [debug] 200 OK (0.022380s, 44.683/s)
+[Sun Jun 21 23:11:38 2015] [debug] GET "/default"
+[Sun Jun 21 23:11:38 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:11:38 2015] [debug] 200 OK (0.020315s, 49.225/s)
+[Sun Jun 21 23:12:05 2015] [debug] GET "/default"
+[Sun Jun 21 23:12:05 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:12:05 2015] [debug] 200 OK (0.021626s, 46.241/s)
+[Sun Jun 21 23:12:06 2015] [debug] GET "/default"
+[Sun Jun 21 23:12:06 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:12:06 2015] [debug] 200 OK (0.000999s, 1001.001/s)
+[Sun Jun 21 23:12:45 2015] [debug] GET "/default"
+[Sun Jun 21 23:12:45 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:12:45 2015] [debug] 200 OK (0.021898s, 45.666/s)
+[Sun Jun 21 23:22:05 2015] [debug] GET "/default"
+[Sun Jun 21 23:22:05 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:22:05 2015] [debug] 200 OK (0.022643s, 44.164/s)
+[Sun Jun 21 23:22:05 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:22:05 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:22:05 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:22:05 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:22:05 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:22:05 2015] [debug] 404 Not Found (0.030337s, 32.963/s)
+[Sun Jun 21 23:22:07 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:22:07 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:22:07 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:22:07 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:22:07 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:22:07 2015] [debug] 404 Not Found (0.008542s, 117.069/s)
+[Sun Jun 21 23:25:26 2015] [debug] GET "/default"
+[Sun Jun 21 23:25:26 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:25:26 2015] [debug] 200 OK (0.019746s, 50.643/s)
+[Sun Jun 21 23:25:26 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:25:26 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:25:26 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:25:26 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:25:26 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:25:26 2015] [debug] 404 Not Found (0.029437s, 33.971/s)
+[Sun Jun 21 23:25:29 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:25:29 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:25:29 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:25:29 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:25:29 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:25:29 2015] [debug] 404 Not Found (0.016437s, 60.838/s)
+[Sun Jun 21 23:25:48 2015] [debug] GET "/default"
+[Sun Jun 21 23:25:48 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:25:48 2015] [debug] 200 OK (0.019347s, 51.688/s)
+[Sun Jun 21 23:25:48 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:25:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:25:48 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:25:48 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:25:48 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:25:48 2015] [debug] 404 Not Found (0.029858s, 33.492/s)
+[Sun Jun 21 23:25:48 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:25:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:25:48 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:25:48 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:25:48 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:25:48 2015] [debug] 404 Not Found (0.009361s, 106.826/s)
+[Sun Jun 21 23:26:20 2015] [debug] GET "/default"
+[Sun Jun 21 23:26:20 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:26:20 2015] [debug] 200 OK (0.022771s, 43.916/s)
+[Sun Jun 21 23:26:20 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:26:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:26:20 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:26:20 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:26:20 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:26:20 2015] [debug] 404 Not Found (0.030669s, 32.606/s)
+[Sun Jun 21 23:26:20 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:26:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:26:20 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:26:20 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:26:20 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:26:20 2015] [debug] 404 Not Found (0.010641s, 93.976/s)
+[Sun Jun 21 23:26:21 2015] [debug] GET "/default"
+[Sun Jun 21 23:26:21 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:26:21 2015] [debug] 200 OK (0.000810s, 1234.568/s)
+[Sun Jun 21 23:26:21 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:26:21 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:26:21 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:26:21 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:26:21 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:26:21 2015] [debug] 404 Not Found (0.009860s, 101.420/s)
+[Sun Jun 21 23:26:21 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:26:21 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:26:21 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:26:21 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:26:21 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:26:21 2015] [debug] 404 Not Found (0.010666s, 93.756/s)
+[Sun Jun 21 23:27:22 2015] [debug] GET "/default"
+[Sun Jun 21 23:27:22 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:27:22 2015] [debug] 200 OK (0.023495s, 42.562/s)
+[Sun Jun 21 23:27:22 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:27:22 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:27:22 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:27:22 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:27:22 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:27:22 2015] [debug] 404 Not Found (0.029523s, 33.872/s)
+[Sun Jun 21 23:27:22 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:27:22 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:27:22 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:27:22 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:27:22 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:27:22 2015] [debug] 404 Not Found (0.010246s, 97.599/s)
+[Sun Jun 21 23:27:23 2015] [debug] GET "/default"
+[Sun Jun 21 23:27:23 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:27:23 2015] [debug] 200 OK (0.000833s, 1200.480/s)
+[Sun Jun 21 23:27:23 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:27:23 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:27:23 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:27:23 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:27:23 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:27:23 2015] [debug] 404 Not Found (0.010187s, 98.164/s)
+[Sun Jun 21 23:27:24 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:27:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:27:24 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:27:24 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:27:24 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:27:24 2015] [debug] 404 Not Found (0.008162s, 122.519/s)
+[Sun Jun 21 23:27:51 2015] [debug] GET "/default"
+[Sun Jun 21 23:27:51 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:27:51 2015] [debug] 200 OK (0.019375s, 51.613/s)
+[Sun Jun 21 23:27:51 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:27:51 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:27:51 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:27:51 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:27:51 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:27:51 2015] [debug] 404 Not Found (0.030464s, 32.826/s)
+[Sun Jun 21 23:27:51 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:27:51 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:27:51 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:27:51 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:27:51 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:27:51 2015] [debug] 404 Not Found (0.009703s, 103.061/s)
+[Sun Jun 21 23:27:52 2015] [debug] GET "/default"
+[Sun Jun 21 23:27:52 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:27:52 2015] [debug] 200 OK (0.000721s, 1386.963/s)
+[Sun Jun 21 23:27:52 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:27:52 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:27:52 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:27:52 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:27:52 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:27:52 2015] [debug] 404 Not Found (0.010837s, 92.276/s)
+[Sun Jun 21 23:27:52 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:27:52 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:27:52 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:27:52 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:27:52 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:27:52 2015] [debug] 404 Not Found (0.011160s, 89.606/s)
+[Sun Jun 21 23:32:58 2015] [debug] GET "/default"
+[Sun Jun 21 23:32:58 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:32:58 2015] [debug] 200 OK (0.024395s, 40.992/s)
+[Sun Jun 21 23:32:58 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:32:58 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:32:58 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:32:58 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:32:58 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:32:58 2015] [debug] 404 Not Found (0.029332s, 34.092/s)
+[Sun Jun 21 23:33:01 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:33:01 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:33:01 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:33:01 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:33:01 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:33:01 2015] [debug] 404 Not Found (0.010786s, 92.713/s)
+[Sun Jun 21 23:37:01 2015] [debug] GET "/default"
+[Sun Jun 21 23:37:01 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:37:01 2015] [debug] 200 OK (0.022873s, 43.720/s)
+[Sun Jun 21 23:37:01 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:37:01 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:37:01 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:37:01 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:37:01 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:37:01 2015] [debug] 404 Not Found (0.029598s, 33.786/s)
+[Sun Jun 21 23:37:03 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:37:03 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:37:03 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:37:03 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:37:03 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:37:03 2015] [debug] 404 Not Found (0.009803s, 102.010/s)
+[Sun Jun 21 23:37:05 2015] [debug] GET "/default"
+[Sun Jun 21 23:37:05 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:37:05 2015] [debug] 200 OK (0.000616s, 1623.377/s)
+[Sun Jun 21 23:37:05 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:37:05 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:37:05 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:37:05 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:37:05 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:37:05 2015] [debug] 404 Not Found (0.012080s, 82.781/s)
+[Sun Jun 21 23:37:05 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:37:05 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:37:05 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:37:05 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:37:05 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:37:05 2015] [debug] 404 Not Found (0.011238s, 88.984/s)
+[Sun Jun 21 23:37:06 2015] [debug] GET "/default"
+[Sun Jun 21 23:37:06 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:37:06 2015] [debug] 200 OK (0.001536s, 651.042/s)
+[Sun Jun 21 23:37:06 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:37:06 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:37:06 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:37:06 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:37:06 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:37:06 2015] [debug] 404 Not Found (0.010603s, 94.313/s)
+[Sun Jun 21 23:37:06 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:37:06 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:37:06 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:37:06 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:37:06 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:37:06 2015] [debug] 404 Not Found (0.009921s, 100.796/s)
+[Sun Jun 21 23:37:07 2015] [debug] GET "/default"
+[Sun Jun 21 23:37:07 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:37:07 2015] [debug] 200 OK (0.000488s, 2049.180/s)
+[Sun Jun 21 23:37:07 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:37:07 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:37:07 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:37:07 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:37:07 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:37:07 2015] [debug] 404 Not Found (0.010540s, 94.877/s)
+[Sun Jun 21 23:37:07 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:37:07 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:37:07 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:37:07 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:37:07 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:37:07 2015] [debug] 404 Not Found (0.009946s, 100.543/s)
+[Sun Jun 21 23:37:32 2015] [debug] GET "/default"
+[Sun Jun 21 23:37:32 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:37:32 2015] [debug] 200 OK (0.020495s, 48.792/s)
+[Sun Jun 21 23:37:32 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:37:32 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:37:32 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:37:32 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:37:32 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:37:32 2015] [debug] 404 Not Found (0.031817s, 31.430/s)
+[Sun Jun 21 23:37:32 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:37:32 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:37:32 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:37:32 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:37:32 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:37:32 2015] [debug] 404 Not Found (0.010562s, 94.679/s)
+[Sun Jun 21 23:37:33 2015] [debug] GET "/default"
+[Sun Jun 21 23:37:33 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:37:33 2015] [debug] 200 OK (0.000851s, 1175.088/s)
+[Sun Jun 21 23:37:33 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:37:33 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:37:33 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:37:33 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:37:33 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:37:33 2015] [debug] 404 Not Found (0.010245s, 97.609/s)
+[Sun Jun 21 23:37:34 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:37:34 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:37:34 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:37:34 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:37:34 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:37:34 2015] [debug] 404 Not Found (0.010477s, 95.447/s)
+[Sun Jun 21 23:37:34 2015] [debug] GET "/default"
+[Sun Jun 21 23:37:34 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Jun 21 23:37:34 2015] [debug] 200 OK (0.000645s, 1550.388/s)
+[Sun Jun 21 23:37:34 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:37:34 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:37:34 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:37:34 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:37:34 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:37:34 2015] [debug] 404 Not Found (0.018049s, 55.405/s)
+[Sun Jun 21 23:37:34 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:37:34 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:37:34 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:37:34 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:37:34 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:37:34 2015] [debug] 404 Not Found (0.009486s, 105.419/s)
+[Sun Jun 21 23:39:01 2015] [debug] GET "/default"
+[Sun Jun 21 23:39:01 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Jun 21 23:39:01 2015] [debug] 200 OK (0.020237s, 49.414/s)
+[Sun Jun 21 23:39:01 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:39:01 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:39:01 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:39:01 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:39:01 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:39:01 2015] [debug] 404 Not Found (0.029315s, 34.112/s)
+[Sun Jun 21 23:39:01 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Sun Jun 21 23:39:01 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jun 21 23:39:01 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jun 21 23:39:01 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Jun 21 23:39:01 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Sun Jun 21 23:39:01 2015] [debug] 404 Not Found (0.011808s, 84.688/s)
+[Mon Jun 22 00:02:09 2015] [debug] GET "/default"
+[Mon Jun 22 00:02:09 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun 22 00:02:09 2015] [debug] 200 OK (0.020007s, 49.983/s)
+[Mon Jun 22 00:02:09 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:02:09 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:02:09 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:02:09 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:02:09 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:02:09 2015] [debug] 404 Not Found (0.031191s, 32.061/s)
+[Mon Jun 22 00:02:11 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:02:11 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:02:11 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:02:11 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:02:11 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:02:11 2015] [debug] 404 Not Found (0.011527s, 86.753/s)
+[Mon Jun 22 00:02:37 2015] [debug] GET "/default"
+[Mon Jun 22 00:02:37 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun 22 00:02:37 2015] [debug] 200 OK (0.020529s, 48.712/s)
+[Mon Jun 22 00:02:37 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:02:37 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:02:37 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:02:37 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:02:37 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:02:37 2015] [debug] 404 Not Found (0.031167s, 32.085/s)
+[Mon Jun 22 00:02:37 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:02:37 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:02:37 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:02:37 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:02:37 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:02:37 2015] [debug] 404 Not Found (0.009338s, 107.089/s)
+[Mon Jun 22 00:17:38 2015] [debug] GET "/default"
+[Mon Jun 22 00:17:38 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun 22 00:17:38 2015] [debug] 200 OK (0.019253s, 51.940/s)
+[Mon Jun 22 00:17:38 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:17:38 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:17:38 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:17:38 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:17:38 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:17:38 2015] [debug] 404 Not Found (0.029549s, 33.842/s)
+[Mon Jun 22 00:17:39 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:17:39 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:17:39 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:17:39 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:17:39 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:17:39 2015] [debug] 404 Not Found (0.013704s, 72.971/s)
+[Mon Jun 22 00:19:57 2015] [debug] GET "/default"
+[Mon Jun 22 00:19:57 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun 22 00:19:57 2015] [debug] 200 OK (0.066371s, 15.067/s)
+[Mon Jun 22 00:19:57 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:19:57 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:19:57 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:19:57 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:19:57 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:19:57 2015] [debug] 404 Not Found (0.030122s, 33.198/s)
+[Mon Jun 22 00:19:58 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:19:58 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:19:58 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:19:58 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:19:58 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:19:58 2015] [debug] 404 Not Found (0.010536s, 94.913/s)
+[Mon Jun 22 00:20:30 2015] [debug] GET "/default"
+[Mon Jun 22 00:20:30 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun 22 00:20:30 2015] [debug] 200 OK (0.019581s, 51.070/s)
+[Mon Jun 22 00:20:30 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:20:30 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:20:30 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:20:30 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:20:30 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:20:30 2015] [debug] 404 Not Found (0.028165s, 35.505/s)
+[Mon Jun 22 00:20:30 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:20:30 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:20:30 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:20:30 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:20:30 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:20:30 2015] [debug] 404 Not Found (0.009129s, 109.541/s)
+[Mon Jun 22 00:20:47 2015] [debug] GET "/default"
+[Mon Jun 22 00:20:47 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun 22 00:20:47 2015] [debug] 200 OK (0.022444s, 44.555/s)
+[Mon Jun 22 00:20:47 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:20:47 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:20:47 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:20:47 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:20:47 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:20:47 2015] [debug] 404 Not Found (0.029335s, 34.089/s)
+[Mon Jun 22 00:20:47 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:20:47 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:20:47 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:20:47 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:20:47 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:20:47 2015] [debug] 404 Not Found (0.008086s, 123.671/s)
+[Mon Jun 22 00:20:48 2015] [debug] GET "/default"
+[Mon Jun 22 00:20:48 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:20:48 2015] [debug] 200 OK (0.000570s, 1754.386/s)
+[Mon Jun 22 00:20:48 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:20:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:20:48 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:20:48 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:20:48 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:20:48 2015] [debug] 404 Not Found (0.010856s, 92.115/s)
+[Mon Jun 22 00:20:48 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:20:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:20:48 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:20:48 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:20:48 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:20:48 2015] [debug] 404 Not Found (0.010090s, 99.108/s)
+[Mon Jun 22 00:21:32 2015] [debug] GET "/default"
+[Mon Jun 22 00:21:32 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun 22 00:21:32 2015] [debug] 200 OK (0.020952s, 47.728/s)
+[Mon Jun 22 00:21:32 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:21:32 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:21:32 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:21:32 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:21:33 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:21:33 2015] [debug] 404 Not Found (0.031673s, 31.573/s)
+[Mon Jun 22 00:21:33 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:21:33 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:21:33 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:21:33 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:21:33 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:21:33 2015] [debug] 404 Not Found (0.008386s, 119.246/s)
+[Mon Jun 22 00:21:33 2015] [debug] GET "/default"
+[Mon Jun 22 00:21:33 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:21:33 2015] [debug] 200 OK (0.000700s, 1428.571/s)
+[Mon Jun 22 00:21:33 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:21:33 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:21:33 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:21:33 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:21:33 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:21:33 2015] [debug] 404 Not Found (0.009960s, 100.402/s)
+[Mon Jun 22 00:21:34 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:21:34 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:21:34 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:21:34 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:21:34 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:21:34 2015] [debug] 404 Not Found (0.009588s, 104.297/s)
+[Mon Jun 22 00:21:34 2015] [debug] GET "/default"
+[Mon Jun 22 00:21:34 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:21:34 2015] [debug] 200 OK (0.000602s, 1661.130/s)
+[Mon Jun 22 00:21:34 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:21:34 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:21:34 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:21:34 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:21:34 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:21:34 2015] [debug] 404 Not Found (0.010349s, 96.628/s)
+[Mon Jun 22 00:21:35 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:21:35 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:21:35 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:21:35 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:21:35 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:21:35 2015] [debug] 404 Not Found (0.011848s, 84.402/s)
+[Mon Jun 22 00:21:35 2015] [debug] GET "/default"
+[Mon Jun 22 00:21:35 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:21:35 2015] [debug] 200 OK (0.000605s, 1652.893/s)
+[Mon Jun 22 00:21:35 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:21:35 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:21:35 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:21:35 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:21:35 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:21:35 2015] [debug] 404 Not Found (0.009467s, 105.630/s)
+[Mon Jun 22 00:21:36 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:21:36 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:21:36 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:21:36 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:21:36 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:21:36 2015] [debug] 404 Not Found (0.009961s, 100.392/s)
+[Mon Jun 22 00:21:54 2015] [debug] GET "/default"
+[Mon Jun 22 00:21:54 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun 22 00:21:54 2015] [debug] 200 OK (0.020944s, 47.746/s)
+[Mon Jun 22 00:21:54 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:21:54 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:21:54 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:21:54 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:21:54 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:21:54 2015] [debug] 404 Not Found (0.028973s, 34.515/s)
+[Mon Jun 22 00:21:54 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:21:54 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:21:54 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:21:54 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:21:54 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:21:54 2015] [debug] 404 Not Found (0.011939s, 83.759/s)
+[Mon Jun 22 00:21:55 2015] [debug] GET "/default"
+[Mon Jun 22 00:21:55 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:21:55 2015] [debug] 200 OK (0.000538s, 1858.736/s)
+[Mon Jun 22 00:21:55 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:21:55 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:21:55 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:21:55 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:21:55 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:21:55 2015] [debug] 404 Not Found (0.009670s, 103.413/s)
+[Mon Jun 22 00:21:55 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:21:55 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:21:55 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:21:55 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:21:55 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:21:55 2015] [debug] 404 Not Found (0.010503s, 95.211/s)
+[Mon Jun 22 00:21:55 2015] [debug] GET "/default"
+[Mon Jun 22 00:21:55 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:21:55 2015] [debug] 200 OK (0.000610s, 1639.344/s)
+[Mon Jun 22 00:21:55 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:21:55 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:21:55 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:21:55 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:21:55 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:21:55 2015] [debug] 404 Not Found (0.010761s, 92.928/s)
+[Mon Jun 22 00:21:55 2015] [debug] GET "/default"
+[Mon Jun 22 00:21:55 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:21:55 2015] [debug] 200 OK (0.000591s, 1692.047/s)
+[Mon Jun 22 00:21:55 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:21:55 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:21:55 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:21:55 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:21:55 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:21:55 2015] [debug] 404 Not Found (0.011139s, 89.775/s)
+[Mon Jun 22 00:21:56 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:21:56 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:21:56 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:21:56 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:21:56 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:21:56 2015] [debug] 404 Not Found (0.010204s, 98.001/s)
+[Mon Jun 22 00:22:34 2015] [debug] GET "/default"
+[Mon Jun 22 00:22:34 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun 22 00:22:34 2015] [debug] 200 OK (0.022269s, 44.905/s)
+[Mon Jun 22 00:22:34 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:22:34 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:22:34 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:22:34 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:22:34 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:22:34 2015] [debug] 404 Not Found (0.032590s, 30.684/s)
+[Mon Jun 22 00:22:34 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:22:34 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:22:34 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:22:34 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:22:34 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:22:34 2015] [debug] 404 Not Found (0.009548s, 104.734/s)
+[Mon Jun 22 00:22:36 2015] [debug] GET "/default"
+[Mon Jun 22 00:22:36 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:22:36 2015] [debug] 200 OK (0.000822s, 1216.545/s)
+[Mon Jun 22 00:22:36 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:22:36 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:22:36 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:22:36 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:22:36 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:22:36 2015] [debug] 404 Not Found (0.009634s, 103.799/s)
+[Mon Jun 22 00:22:36 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:22:36 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:22:36 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:22:36 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:22:36 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:22:36 2015] [debug] 404 Not Found (0.011601s, 86.199/s)
+[Mon Jun 22 00:22:46 2015] [debug] GET "/default"
+[Mon Jun 22 00:22:46 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun 22 00:22:46 2015] [debug] 200 OK (0.024415s, 40.958/s)
+[Mon Jun 22 00:22:46 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:22:46 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:22:46 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:22:46 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:22:46 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:22:46 2015] [debug] 404 Not Found (0.027711s, 36.087/s)
+[Mon Jun 22 00:22:46 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:22:46 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:22:46 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:22:46 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:22:46 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:22:46 2015] [debug] 404 Not Found (0.009803s, 102.010/s)
+[Mon Jun 22 00:22:47 2015] [debug] GET "/default"
+[Mon Jun 22 00:22:47 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:22:47 2015] [debug] 200 OK (0.000821s, 1218.027/s)
+[Mon Jun 22 00:22:47 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:22:47 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:22:47 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:22:47 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:22:47 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:22:47 2015] [debug] 404 Not Found (0.011243s, 88.944/s)
+[Mon Jun 22 00:22:47 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:22:47 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:22:47 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:22:47 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:22:47 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:22:47 2015] [debug] 404 Not Found (0.009238s, 108.249/s)
+[Mon Jun 22 00:22:47 2015] [debug] GET "/default"
+[Mon Jun 22 00:22:47 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:22:47 2015] [debug] 200 OK (0.000700s, 1428.571/s)
+[Mon Jun 22 00:22:47 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:22:47 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:22:47 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:22:47 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:22:47 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:22:47 2015] [debug] 404 Not Found (0.011026s, 90.695/s)
+[Mon Jun 22 00:22:48 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:22:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:22:48 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:22:48 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:22:48 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:22:48 2015] [debug] 404 Not Found (0.008559s, 116.836/s)
+[Mon Jun 22 00:22:48 2015] [debug] GET "/default"
+[Mon Jun 22 00:22:48 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:22:48 2015] [debug] 200 OK (0.000518s, 1930.502/s)
+[Mon Jun 22 00:22:48 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:22:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:22:48 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:22:48 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:22:48 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:22:48 2015] [debug] 404 Not Found (0.010895s, 91.785/s)
+[Mon Jun 22 00:22:48 2015] [debug] GET "/default"
+[Mon Jun 22 00:22:48 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:22:48 2015] [debug] 200 OK (0.000496s, 2016.129/s)
+[Mon Jun 22 00:22:48 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:22:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:22:48 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:22:48 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:22:48 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:22:48 2015] [debug] 404 Not Found (0.009158s, 109.194/s)
+[Mon Jun 22 00:22:48 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:22:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:22:48 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:22:48 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:22:48 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:22:48 2015] [debug] 404 Not Found (0.008506s, 117.564/s)
+[Mon Jun 22 00:22:59 2015] [debug] GET "/default"
+[Mon Jun 22 00:22:59 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:22:59 2015] [debug] 200 OK (0.000615s, 1626.016/s)
+[Mon Jun 22 00:22:59 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:22:59 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:22:59 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:22:59 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:22:59 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:22:59 2015] [debug] 404 Not Found (0.010935s, 91.449/s)
+[Mon Jun 22 00:22:59 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:22:59 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:22:59 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:22:59 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:22:59 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:22:59 2015] [debug] 404 Not Found (0.013430s, 74.460/s)
+[Mon Jun 22 00:23:00 2015] [debug] GET "/default"
+[Mon Jun 22 00:23:00 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:23:00 2015] [debug] 200 OK (0.000580s, 1724.138/s)
+[Mon Jun 22 00:23:00 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:23:00 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:23:00 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:23:00 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:23:00 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:23:00 2015] [debug] 404 Not Found (0.009168s, 109.075/s)
+[Mon Jun 22 00:23:00 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:23:00 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:23:00 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:23:00 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:23:00 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:23:00 2015] [debug] 404 Not Found (0.014611s, 68.442/s)
+[Mon Jun 22 00:23:30 2015] [debug] GET "/default"
+[Mon Jun 22 00:23:30 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun 22 00:23:30 2015] [debug] 200 OK (0.020356s, 49.126/s)
+[Mon Jun 22 00:23:30 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:23:30 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:23:30 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:23:30 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:23:30 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:23:30 2015] [debug] 404 Not Found (0.029290s, 34.141/s)
+[Mon Jun 22 00:23:30 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:23:30 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:23:30 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:23:30 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:23:30 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:23:30 2015] [debug] 404 Not Found (0.009775s, 102.302/s)
+[Mon Jun 22 00:23:31 2015] [debug] GET "/default"
+[Mon Jun 22 00:23:31 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:23:31 2015] [debug] 200 OK (0.000525s, 1904.762/s)
+[Mon Jun 22 00:23:31 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:23:31 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:23:31 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:23:31 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:23:31 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:23:31 2015] [debug] 404 Not Found (0.010871s, 91.988/s)
+[Mon Jun 22 00:23:31 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:23:31 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:23:31 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:23:31 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:23:31 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:23:31 2015] [debug] 404 Not Found (0.009556s, 104.646/s)
+[Mon Jun 22 00:24:36 2015] [debug] GET "/default"
+[Mon Jun 22 00:24:36 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun 22 00:24:36 2015] [debug] 200 OK (0.021880s, 45.704/s)
+[Mon Jun 22 00:24:36 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:24:36 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:24:36 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:24:36 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:24:36 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:24:36 2015] [debug] 404 Not Found (0.029881s, 33.466/s)
+[Mon Jun 22 00:24:36 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:24:36 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:24:36 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:24:36 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:24:36 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:24:36 2015] [debug] 404 Not Found (0.010511s, 95.138/s)
+[Mon Jun 22 00:24:37 2015] [debug] GET "/default"
+[Mon Jun 22 00:24:37 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:24:37 2015] [debug] 200 OK (0.001436s, 696.379/s)
+[Mon Jun 22 00:24:37 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:24:37 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:24:37 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:24:37 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:24:37 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:24:37 2015] [debug] 404 Not Found (0.012200s, 81.967/s)
+[Mon Jun 22 00:24:38 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:24:38 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:24:38 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:24:38 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:24:38 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:24:38 2015] [debug] 404 Not Found (0.011874s, 84.218/s)
+[Mon Jun 22 00:24:38 2015] [debug] GET "/default"
+[Mon Jun 22 00:24:38 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:24:38 2015] [debug] 200 OK (0.000709s, 1410.437/s)
+[Mon Jun 22 00:24:38 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:24:38 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:24:38 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:24:38 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:24:38 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:24:38 2015] [debug] 404 Not Found (0.016029s, 62.387/s)
+[Mon Jun 22 00:24:38 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:24:38 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:24:38 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:24:38 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:24:38 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:24:38 2015] [debug] 404 Not Found (0.008147s, 122.745/s)
+[Mon Jun 22 00:24:39 2015] [debug] GET "/default"
+[Mon Jun 22 00:24:39 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:24:39 2015] [debug] 200 OK (0.000579s, 1727.116/s)
+[Mon Jun 22 00:24:39 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:24:39 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:24:39 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:24:39 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:24:39 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:24:39 2015] [debug] 404 Not Found (0.009532s, 104.910/s)
+[Mon Jun 22 00:24:39 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:24:39 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:24:39 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:24:39 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:24:39 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:24:39 2015] [debug] 404 Not Found (0.009987s, 100.130/s)
+[Mon Jun 22 00:24:39 2015] [debug] GET "/default"
+[Mon Jun 22 00:24:39 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:24:39 2015] [debug] 200 OK (0.000644s, 1552.795/s)
+[Mon Jun 22 00:24:39 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:24:39 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:24:39 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:24:39 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:24:39 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:24:39 2015] [debug] 404 Not Found (0.010242s, 97.637/s)
+[Mon Jun 22 00:24:39 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:24:39 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:24:39 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:24:39 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:24:39 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:24:39 2015] [debug] 404 Not Found (0.008163s, 122.504/s)
+[Mon Jun 22 00:25:56 2015] [debug] GET "/default"
+[Mon Jun 22 00:25:56 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun 22 00:25:56 2015] [debug] 200 OK (0.021310s, 46.926/s)
+[Mon Jun 22 00:25:56 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:25:56 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:25:56 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:25:56 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:25:56 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:25:56 2015] [debug] 404 Not Found (0.029373s, 34.045/s)
+[Mon Jun 22 00:25:56 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:25:56 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:25:56 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:25:56 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:25:56 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:25:56 2015] [debug] 404 Not Found (0.010979s, 91.083/s)
+[Mon Jun 22 00:25:58 2015] [debug] GET "/default"
+[Mon Jun 22 00:25:58 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:25:58 2015] [debug] 200 OK (0.000628s, 1592.357/s)
+[Mon Jun 22 00:25:58 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:25:58 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:25:58 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:25:58 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:25:58 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:25:58 2015] [debug] 404 Not Found (0.010250s, 97.561/s)
+[Mon Jun 22 00:25:58 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:25:58 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:25:58 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:25:58 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:25:58 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:25:58 2015] [debug] 404 Not Found (0.009411s, 106.259/s)
+[Mon Jun 22 00:25:59 2015] [debug] GET "/default"
+[Mon Jun 22 00:25:59 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:25:59 2015] [debug] 200 OK (0.000808s, 1237.624/s)
+[Mon Jun 22 00:26:00 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:26:00 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:26:00 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:26:00 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:26:00 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:26:00 2015] [debug] 404 Not Found (0.011254s, 88.857/s)
+[Mon Jun 22 00:26:00 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:26:00 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:26:00 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:26:00 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:26:00 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:26:00 2015] [debug] 404 Not Found (0.012831s, 77.936/s)
+[Mon Jun 22 00:27:04 2015] [debug] GET "/default"
+[Mon Jun 22 00:27:04 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun 22 00:27:04 2015] [debug] 200 OK (0.023949s, 41.755/s)
+[Mon Jun 22 00:27:04 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:27:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:27:04 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:27:04 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:27:05 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:27:05 2015] [debug] 404 Not Found (0.031360s, 31.888/s)
+[Mon Jun 22 00:27:05 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:27:05 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:27:05 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:27:05 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:27:05 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:27:05 2015] [debug] 404 Not Found (0.010121s, 98.804/s)
+[Mon Jun 22 00:27:22 2015] [debug] GET "/default"
+[Mon Jun 22 00:27:22 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun 22 00:27:22 2015] [debug] 200 OK (0.021277s, 46.999/s)
+[Mon Jun 22 00:27:22 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:27:22 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:27:22 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:27:22 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:27:22 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:27:22 2015] [debug] 404 Not Found (0.029091s, 34.375/s)
+[Mon Jun 22 00:27:22 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:27:22 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:27:22 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:27:22 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:27:22 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:27:22 2015] [debug] 404 Not Found (0.009817s, 101.864/s)
+[Mon Jun 22 00:27:23 2015] [debug] GET "/default"
+[Mon Jun 22 00:27:23 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:27:23 2015] [debug] 200 OK (0.000591s, 1692.047/s)
+[Mon Jun 22 00:27:23 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:27:23 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:27:23 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:27:23 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:27:23 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:27:23 2015] [debug] 404 Not Found (0.012573s, 79.536/s)
+[Mon Jun 22 00:27:23 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:27:23 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:27:23 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:27:23 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:27:23 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:27:23 2015] [debug] 404 Not Found (0.008958s, 111.632/s)
+[Mon Jun 22 00:27:23 2015] [debug] GET "/default"
+[Mon Jun 22 00:27:23 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:27:23 2015] [debug] 200 OK (0.001260s, 793.651/s)
+[Mon Jun 22 00:27:23 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:27:23 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:27:23 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:27:23 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:27:23 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:27:23 2015] [debug] 404 Not Found (0.008616s, 116.063/s)
+[Mon Jun 22 00:27:23 2015] [debug] GET "/default"
+[Mon Jun 22 00:27:23 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:27:23 2015] [debug] 200 OK (0.000507s, 1972.387/s)
+[Mon Jun 22 00:27:23 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:27:23 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:27:23 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:27:23 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:27:23 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:27:23 2015] [debug] 404 Not Found (0.010471s, 95.502/s)
+[Mon Jun 22 00:27:24 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:27:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:27:24 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:27:24 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:27:24 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:27:24 2015] [debug] 404 Not Found (0.009081s, 110.120/s)
+[Mon Jun 22 00:27:24 2015] [debug] GET "/default"
+[Mon Jun 22 00:27:24 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:27:24 2015] [debug] 200 OK (0.000558s, 1792.115/s)
+[Mon Jun 22 00:27:24 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:27:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:27:24 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:27:24 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:27:24 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:27:24 2015] [debug] 404 Not Found (0.009756s, 102.501/s)
+[Mon Jun 22 00:27:24 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:27:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:27:24 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:27:24 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:27:24 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:27:24 2015] [debug] 404 Not Found (0.011899s, 84.041/s)
+[Mon Jun 22 00:27:49 2015] [debug] GET "/default"
+[Mon Jun 22 00:27:49 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun 22 00:27:49 2015] [debug] 200 OK (0.023145s, 43.206/s)
+[Mon Jun 22 00:27:49 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:27:49 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:27:49 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:27:49 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:27:50 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:27:50 2015] [debug] 404 Not Found (0.031803s, 31.444/s)
+[Mon Jun 22 00:27:50 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:27:50 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:27:50 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:27:50 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:27:50 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:27:50 2015] [debug] 404 Not Found (0.009071s, 110.241/s)
+[Mon Jun 22 00:30:16 2015] [debug] GET "/default"
+[Mon Jun 22 00:30:16 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Jun 22 00:30:16 2015] [debug] 200 OK (0.022322s, 44.799/s)
+[Mon Jun 22 00:30:16 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:30:16 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:30:16 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:30:16 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:30:16 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:30:16 2015] [debug] 404 Not Found (0.030594s, 32.686/s)
+[Mon Jun 22 00:30:16 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:30:16 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:30:16 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:30:16 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:30:17 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:30:17 2015] [debug] 404 Not Found (0.013559s, 73.752/s)
+[Mon Jun 22 00:30:18 2015] [debug] GET "/default"
+[Mon Jun 22 00:30:18 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Jun 22 00:30:18 2015] [debug] 200 OK (0.000808s, 1237.624/s)
+[Mon Jun 22 00:30:18 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:30:18 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:30:18 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:30:18 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:30:18 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:30:18 2015] [debug] 404 Not Found (0.010183s, 98.203/s)
+[Mon Jun 22 00:30:18 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 00:30:18 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 00:30:18 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 00:30:18 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 00:30:18 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 00:30:18 2015] [debug] 404 Not Found (0.009436s, 105.977/s)
+[Mon Jun 22 00:45:09 2015] [debug] GET "/index"
+[Mon Jun 22 00:45:09 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 00:45:09 2015] [debug] 200 OK (0.003451s, 289.771/s)
+[Mon Jun 22 00:45:27 2015] [debug] GET "/index"
+[Mon Jun 22 00:45:27 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 00:45:27 2015] [debug] 200 OK (0.000535s, 1869.159/s)
+[Mon Jun 22 00:45:28 2015] [debug] GET "/index"
+[Mon Jun 22 00:45:28 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 00:45:28 2015] [debug] 200 OK (0.003215s, 311.042/s)
+[Mon Jun 22 00:45:45 2015] [debug] GET "/index"
+[Mon Jun 22 00:45:45 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 00:45:45 2015] [debug] 200 OK (0.005418s, 184.570/s)
+[Mon Jun 22 00:46:17 2015] [debug] GET "/index"
+[Mon Jun 22 00:46:17 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 00:46:17 2015] [debug] 200 OK (0.004666s, 214.316/s)
+[Mon Jun 22 00:46:19 2015] [debug] GET "/index"
+[Mon Jun 22 00:46:19 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 00:46:19 2015] [debug] 200 OK (0.000548s, 1824.818/s)
+[Mon Jun 22 00:46:20 2015] [debug] GET "/index"
+[Mon Jun 22 00:46:20 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 00:46:20 2015] [debug] 200 OK (0.000534s, 1872.659/s)
+[Mon Jun 22 00:46:43 2015] [debug] GET "/index"
+[Mon Jun 22 00:46:43 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 00:46:43 2015] [debug] 200 OK (0.000471s, 2123.142/s)
+[Mon Jun 22 00:46:44 2015] [debug] GET "/index"
+[Mon Jun 22 00:46:44 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 00:46:44 2015] [debug] 200 OK (0.002627s, 380.662/s)
+[Mon Jun 22 00:47:04 2015] [debug] GET "/index"
+[Mon Jun 22 00:47:04 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 00:47:04 2015] [debug] 200 OK (0.002593s, 385.654/s)
+[Mon Jun 22 00:47:48 2015] [debug] GET "/index"
+[Mon Jun 22 00:47:48 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 00:47:48 2015] [debug] 200 OK (0.002521s, 396.668/s)
+[Mon Jun 22 00:48:09 2015] [debug] GET "/index"
+[Mon Jun 22 00:48:09 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 00:48:09 2015] [debug] 200 OK (0.003934s, 254.194/s)
+[Mon Jun 22 22:14:06 2015] [info] Listening at "http://*:3000"
+[Mon Jun 22 22:14:09 2015] [debug] GET "/"
+[Mon Jun 22 22:14:09 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 22:14:09 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 22:14:09 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 22:14:09 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 22:14:09 2015] [debug] 404 Not Found (0.045856s, 21.807/s)
+[Mon Jun 22 22:14:19 2015] [debug] GET "/index"
+[Mon Jun 22 22:14:19 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 22:14:19 2015] [debug] 200 OK (0.002290s, 436.681/s)
+[Mon Jun 22 22:14:51 2015] [info] Listening at "http://*:3000"
+[Mon Jun 22 22:16:59 2015] [debug] GET "/index"
+[Mon Jun 22 22:16:59 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 22:16:59 2015] [debug] 200 OK (0.004655s, 214.823/s)
+[Mon Jun 22 22:17:08 2015] [debug] GET "/index"
+[Mon Jun 22 22:17:08 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 22:17:08 2015] [debug] 200 OK (0.000473s, 2114.165/s)
+[Mon Jun 22 22:17:09 2015] [debug] GET "/index"
+[Mon Jun 22 22:17:09 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 22:17:09 2015] [debug] 200 OK (0.000498s, 2008.032/s)
+[Mon Jun 22 22:17:14 2015] [debug] GET "/index"
+[Mon Jun 22 22:17:14 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 22:17:14 2015] [debug] 200 OK (0.000738s, 1355.014/s)
+[Mon Jun 22 22:17:15 2015] [debug] GET "/index"
+[Mon Jun 22 22:17:15 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 22:17:15 2015] [debug] 200 OK (0.000544s, 1838.235/s)
+[Mon Jun 22 22:17:15 2015] [debug] GET "/index"
+[Mon Jun 22 22:17:15 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 22:17:15 2015] [debug] 200 OK (0.000465s, 2150.538/s)
+[Mon Jun 22 22:17:15 2015] [debug] GET "/index"
+[Mon Jun 22 22:17:15 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 22:17:15 2015] [debug] 200 OK (0.000450s, 2222.222/s)
+[Mon Jun 22 22:17:25 2015] [debug] GET "/index"
+[Mon Jun 22 22:17:25 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 22:17:25 2015] [debug] 200 OK (0.000666s, 1501.502/s)
+[Mon Jun 22 22:17:33 2015] [debug] GET "/index"
+[Mon Jun 22 22:17:33 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 22:17:33 2015] [debug] 200 OK (0.000544s, 1838.235/s)
+[Mon Jun 22 22:17:34 2015] [debug] GET "/index"
+[Mon Jun 22 22:17:34 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 22:17:34 2015] [debug] 200 OK (0.000489s, 2044.990/s)
+[Mon Jun 22 22:17:34 2015] [debug] GET "/index"
+[Mon Jun 22 22:17:34 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 22:17:34 2015] [debug] 200 OK (0.000512s, 1953.125/s)
+[Mon Jun 22 22:17:47 2015] [debug] GET "/index"
+[Mon Jun 22 22:17:47 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 22:17:47 2015] [debug] 200 OK (0.000556s, 1798.561/s)
+[Mon Jun 22 22:35:59 2015] [debug] GET "/index"
+[Mon Jun 22 22:35:59 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 22:35:59 2015] [debug] 200 OK (0.000590s, 1694.915/s)
+[Mon Jun 22 22:36:23 2015] [debug] GET "/index"
+[Mon Jun 22 22:36:23 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 22:36:23 2015] [debug] 200 OK (0.000535s, 1869.159/s)
+[Mon Jun 22 22:36:24 2015] [debug] GET "/index"
+[Mon Jun 22 22:36:24 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 22:36:24 2015] [debug] 200 OK (0.000609s, 1642.036/s)
+[Mon Jun 22 22:36:27 2015] [debug] GET "/index"
+[Mon Jun 22 22:36:27 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 22:36:27 2015] [debug] 200 OK (0.001307s, 765.111/s)
+[Mon Jun 22 22:57:55 2015] [debug] GET "/index"
+[Mon Jun 22 22:57:55 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 22:57:55 2015] [debug] 200 OK (0.000541s, 1848.429/s)
+[Mon Jun 22 22:58:13 2015] [info] Listening at "http://*:3000"
+[Mon Jun 22 22:58:16 2015] [debug] GET "/index"
+[Mon Jun 22 22:58:16 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 22:58:16 2015] [debug] 200 OK (0.002431s, 411.353/s)
+[Mon Jun 22 22:58:34 2015] [info] Listening at "http://*:3000"
+[Mon Jun 22 22:59:31 2015] [debug] GET "/index"
+[Mon Jun 22 22:59:31 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 22:59:31 2015] [debug] 200 OK (0.002670s, 374.532/s)
+[Mon Jun 22 23:00:25 2015] [debug] GET "/index"
+[Mon Jun 22 23:00:25 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:00:25 2015] [debug] 200 OK (0.002942s, 339.905/s)
+[Mon Jun 22 23:00:38 2015] [debug] GET "/index"
+[Mon Jun 22 23:00:38 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 23:00:38 2015] [debug] 200 OK (0.000539s, 1855.288/s)
+[Mon Jun 22 23:00:48 2015] [debug] GET "/index"
+[Mon Jun 22 23:00:48 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 23:00:48 2015] [debug] 200 OK (0.000538s, 1858.736/s)
+[Mon Jun 22 23:01:18 2015] [debug] GET "/index"
+[Mon Jun 22 23:01:18 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:01:18 2015] [debug] 200 OK (0.002740s, 364.964/s)
+[Mon Jun 22 23:01:44 2015] [debug] GET "/index"
+[Mon Jun 22 23:01:44 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:01:44 2015] [debug] 200 OK (0.002915s, 343.053/s)
+[Mon Jun 22 23:02:04 2015] [debug] GET "/index"
+[Mon Jun 22 23:02:04 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 23:02:04 2015] [debug] 200 OK (0.000551s, 1814.882/s)
+[Mon Jun 22 23:02:05 2015] [debug] GET "/index"
+[Mon Jun 22 23:02:05 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:02:05 2015] [debug] 200 OK (0.002930s, 341.297/s)
+[Mon Jun 22 23:07:54 2015] [debug] GET "/index"
+[Mon Jun 22 23:07:54 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:07:54 2015] [debug] 200 OK (0.003030s, 330.033/s)
+[Mon Jun 22 23:09:01 2015] [debug] GET "/index"
+[Mon Jun 22 23:09:01 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:09:01 2015] [debug] 200 OK (0.007267s, 137.608/s)
+[Mon Jun 22 23:09:56 2015] [debug] GET "/index"
+[Mon Jun 22 23:09:56 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:09:56 2015] [debug] 200 OK (0.003009s, 332.336/s)
+[Mon Jun 22 23:10:26 2015] [debug] GET "/index"
+[Mon Jun 22 23:10:26 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:10:26 2015] [debug] 200 OK (0.003021s, 331.016/s)
+[Mon Jun 22 23:11:28 2015] [debug] GET "/index"
+[Mon Jun 22 23:11:28 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:11:28 2015] [debug] 200 OK (0.003165s, 315.956/s)
+[Mon Jun 22 23:11:51 2015] [debug] GET "/index"
+[Mon Jun 22 23:11:51 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:11:51 2015] [debug] 200 OK (0.002703s, 369.959/s)
+[Mon Jun 22 23:12:04 2015] [debug] GET "/index"
+[Mon Jun 22 23:12:04 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:12:04 2015] [debug] 200 OK (0.003513s, 284.657/s)
+[Mon Jun 22 23:13:53 2015] [debug] GET "/index"
+[Mon Jun 22 23:13:53 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:13:53 2015] [debug] 200 OK (0.002957s, 338.181/s)
+[Mon Jun 22 23:14:58 2015] [debug] GET "/index"
+[Mon Jun 22 23:14:58 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 23:14:58 2015] [debug] 200 OK (0.000552s, 1811.594/s)
+[Mon Jun 22 23:15:01 2015] [debug] GET "/index"
+[Mon Jun 22 23:15:01 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:15:01 2015] [debug] 200 OK (0.003369s, 296.824/s)
+[Mon Jun 22 23:20:02 2015] [debug] GET "/index"
+[Mon Jun 22 23:20:02 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:20:02 2015] [debug] 200 OK (0.042612s, 23.468/s)
+[Mon Jun 22 23:20:15 2015] [debug] GET "/index"
+[Mon Jun 22 23:20:15 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:20:15 2015] [debug] 200 OK (0.021861s, 45.744/s)
+[Mon Jun 22 23:23:59 2015] [debug] GET "/index"
+[Mon Jun 22 23:23:59 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:23:59 2015] [debug] 200 OK (0.023100s, 43.290/s)
+[Mon Jun 22 23:23:59 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:23:59 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:23:59 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:23:59 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:23:59 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:23:59 2015] [debug] 404 Not Found (0.027906s, 35.835/s)
+[Mon Jun 22 23:24:01 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:24:01 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:24:01 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:24:01 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:24:01 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:24:01 2015] [debug] 404 Not Found (0.008399s, 119.062/s)
+[Mon Jun 22 23:24:41 2015] [debug] GET "/index"
+[Mon Jun 22 23:24:41 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:24:41 2015] [debug] 200 OK (0.020285s, 49.298/s)
+[Mon Jun 22 23:24:41 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:24:41 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:24:41 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:24:41 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:24:41 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:24:41 2015] [debug] 404 Not Found (0.038283s, 26.121/s)
+[Mon Jun 22 23:24:42 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:24:42 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:24:42 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:24:42 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:24:42 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:24:42 2015] [debug] 404 Not Found (0.009004s, 111.062/s)
+[Mon Jun 22 23:25:57 2015] [debug] GET "/index"
+[Mon Jun 22 23:25:57 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:25:57 2015] [debug] 200 OK (0.022191s, 45.063/s)
+[Mon Jun 22 23:25:57 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:25:57 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:25:57 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:25:57 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:25:58 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:25:58 2015] [debug] 404 Not Found (0.027689s, 36.115/s)
+[Mon Jun 22 23:25:58 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:25:58 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:25:58 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:25:58 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:25:58 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:25:58 2015] [debug] 404 Not Found (0.008791s, 113.753/s)
+[Mon Jun 22 23:26:36 2015] [debug] GET "/index"
+[Mon Jun 22 23:26:36 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:26:36 2015] [debug] 200 OK (0.022883s, 43.701/s)
+[Mon Jun 22 23:26:36 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:26:36 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:26:36 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:26:36 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:26:36 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:26:36 2015] [debug] 404 Not Found (0.030176s, 33.139/s)
+[Mon Jun 22 23:26:36 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:26:36 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:26:36 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:26:36 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:26:36 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:26:36 2015] [debug] 404 Not Found (0.008466s, 118.120/s)
+[Mon Jun 22 23:26:55 2015] [debug] GET "/index"
+[Mon Jun 22 23:26:55 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:26:55 2015] [debug] 200 OK (0.026969s, 37.080/s)
+[Mon Jun 22 23:26:55 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:26:55 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:26:55 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:26:55 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:26:55 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:26:55 2015] [debug] 404 Not Found (0.028929s, 34.567/s)
+[Mon Jun 22 23:26:55 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:26:55 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:26:55 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:26:55 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:26:55 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:26:55 2015] [debug] 404 Not Found (0.013717s, 72.902/s)
+[Mon Jun 22 23:26:56 2015] [debug] GET "/index"
+[Mon Jun 22 23:26:56 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 23:26:56 2015] [debug] 200 OK (0.000606s, 1650.165/s)
+[Mon Jun 22 23:26:56 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:26:56 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:26:56 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:26:56 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:26:56 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:26:56 2015] [debug] 404 Not Found (0.012644s, 79.089/s)
+[Mon Jun 22 23:26:56 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:26:56 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:26:56 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:26:56 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:26:56 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:26:56 2015] [debug] 404 Not Found (0.009047s, 110.534/s)
+[Mon Jun 22 23:26:57 2015] [debug] GET "/index"
+[Mon Jun 22 23:26:57 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 23:26:57 2015] [debug] 200 OK (0.000588s, 1700.680/s)
+[Mon Jun 22 23:26:57 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:26:57 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:26:57 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:26:57 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:26:57 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:26:57 2015] [debug] 404 Not Found (0.009492s, 105.352/s)
+[Mon Jun 22 23:26:57 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:26:57 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:26:57 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:26:57 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:26:57 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:26:57 2015] [debug] 404 Not Found (0.014947s, 66.903/s)
+[Mon Jun 22 23:27:47 2015] [debug] GET "/index"
+[Mon Jun 22 23:27:47 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:27:47 2015] [debug] 200 OK (0.026527s, 37.697/s)
+[Mon Jun 22 23:27:47 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:27:47 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:27:47 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:27:47 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:27:47 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:27:47 2015] [debug] 404 Not Found (0.027980s, 35.740/s)
+[Mon Jun 22 23:27:47 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:27:47 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:27:47 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:27:47 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:27:47 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:27:47 2015] [debug] 404 Not Found (0.009019s, 110.877/s)
+[Mon Jun 22 23:27:48 2015] [debug] GET "/index"
+[Mon Jun 22 23:27:48 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 23:27:48 2015] [debug] 200 OK (0.000570s, 1754.386/s)
+[Mon Jun 22 23:27:48 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:27:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:27:48 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:27:48 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:27:48 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:27:48 2015] [debug] 404 Not Found (0.011939s, 83.759/s)
+[Mon Jun 22 23:27:48 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:27:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:27:48 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:27:48 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:27:48 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:27:48 2015] [debug] 404 Not Found (0.009747s, 102.596/s)
+[Mon Jun 22 23:27:49 2015] [debug] GET "/index"
+[Mon Jun 22 23:27:49 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 23:27:49 2015] [debug] 200 OK (0.000607s, 1647.446/s)
+[Mon Jun 22 23:27:49 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:27:49 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:27:49 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:27:49 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:27:49 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:27:49 2015] [debug] 404 Not Found (0.012555s, 79.650/s)
+[Mon Jun 22 23:27:49 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:27:49 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:27:49 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:27:49 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:27:49 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:27:49 2015] [debug] 404 Not Found (0.008898s, 112.385/s)
+[Mon Jun 22 23:28:21 2015] [debug] GET "/index"
+[Mon Jun 22 23:28:21 2015] [debug] Rendering template "layouts/a.html.ep"
+[Mon Jun 22 23:28:21 2015] [debug] 200 OK (0.021823s, 45.823/s)
+[Mon Jun 22 23:28:21 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:28:21 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:28:21 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:28:21 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:28:21 2015] [debug] Rendering inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:28:21 2015] [debug] 404 Not Found (0.046960s, 21.295/s)
+[Mon Jun 22 23:28:21 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:28:21 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:28:21 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:28:21 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:28:21 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:28:21 2015] [debug] 404 Not Found (0.007949s, 125.802/s)
+[Mon Jun 22 23:28:22 2015] [debug] GET "/index"
+[Mon Jun 22 23:28:22 2015] [debug] Rendering cached template "layouts/a.html.ep"
+[Mon Jun 22 23:28:22 2015] [debug] 200 OK (0.000623s, 1605.136/s)
+[Mon Jun 22 23:28:22 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:28:22 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:28:22 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:28:22 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:28:22 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:28:22 2015] [debug] 404 Not Found (0.009663s, 103.488/s)
+[Mon Jun 22 23:28:22 2015] [debug] GET "/images/avatar/large/stevie.jpg"
+[Mon Jun 22 23:28:22 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Jun 22 23:28:22 2015] [debug] Template "not_found.html.ep" not found
+[Mon Jun 22 23:28:22 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Mon Jun 22 23:28:22 2015] [debug] Rendering cached inline template "8340368246374291041c72d7b4edb14d"
+[Mon Jun 22 23:28:22 2015] [debug] 404 Not Found (0.010251s, 97.551/s)
